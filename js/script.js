@@ -19,3 +19,9 @@
                document.getElementById("fa-icones").style.display='none';
                document.getElementById("go-icones").style.display='none';
             }
+            if(screen.width == 1536)
+            {
+ 
+               document.getElementById("fa-icones").style.display='none';
+               document.getElementById("go-icones").style.display='none';
+            }
