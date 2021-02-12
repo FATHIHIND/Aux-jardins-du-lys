@@ -25,3 +25,13 @@
                document.getElementById("fa-icones").style.display='none';
                document.getElementById("go-icones").style.display='none';
             }
+            if(screen.width == 768)
+            {
+ 
+               document.getElementById(".sticky-container").style.right='537px';
+            }
+            if(screen.width == 425)
+            {
+ 
+               document.getElementById(".sticky-container").style.right='210px';
+            }
