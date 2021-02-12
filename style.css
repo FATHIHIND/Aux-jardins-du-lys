@@ -1,0 +1,770 @@
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+    overflow-x: hidden;
+}
+
+*{
+ margin:0px;
+ padding:0px;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+/*--------Header---------*/
+img#logo {
+    margin-left: 41px;
+    margin-top: 1px;
+}
+h1#title {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    opacity: 100%;
+    color: #5ABF28;
+    margin-left: 9px;
+    margin-top: 18px;
+}
+menu {
+    margin-top: -72px;
+    margin-left: 489px;
+}
+a#accueil {
+    font-family: 'Montserrat', sans-serif;
+    color: #5ABF28;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 160px;
+    margin-top: -92px;
+}
+a#creation_jardin {
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 17px;
+}
+b#separator {
+    font-size: 52px;
+    color: #DCDCDC;
+    height: 4px;
+    width: 4px;
+    margin-left: 16px;
+}
+a#entretien_jardin {
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+a#contact {
+    color: #969696;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 16px;
+    line-height: 6.5;
+}
+div#facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3.4px solid #DCDCDC;
+    margin-left: 1263px;
+    margin-top: -85px;
+
+}
+
+img#fa-icone {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 13px;
+    margin-top: 5px;
+    width: 7px;
+}
+div#twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #5ABF28;
+    margin-left: 1323px;
+    margin-top: -41px;
+
+}
+
+img#tw-icone {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 13px;
+    margin-top: 13px;
+    width: 15px;
+}
+div#google {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3.4px solid #DCDCDC;
+    margin-left: 1384px;
+    margin-top: -41px;
+}
+
+img#go-icone {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 11px;
+    margin-top: 5px;
+    width: 12px;
+}
+li#li-title {
+    color: white;
+}
+li#li-acceuil {
+    color: white;
+}
+
+/*ul#menu_ {
+    margin-left: -250px;
+}*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 520px) 
+{
+    /*----Header-----*/
+    a#accueil 
+    {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 19px;
+        margin-top: -92px;
+    } 
+    b#separator 
+    {
+      display: none;
+   
+    }
+    a#entretien_jardin 
+    {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 17px;
+    }
+    a#contact 
+    {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 17px;
+        line-height: 1;
+    }
+    img#logo 
+    {
+        margin-left: 124px;
+        margin-top: 5px;
+    }
+    div#facebook 
+    {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 46px;
+        margin-top: 25px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 180px;
+        margin-top: -39px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 111px;
+        margin-top: -41px;
+    }
+}
+
+@media screen and (max-width: 1444px) 
+{
+    /*----Header-----*/
+    img#logo {
+        margin-left: -6px;
+        margin-top: 1px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1211px;
+        margin-top: -85px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 1285px;
+        margin-top: -41px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1354px;
+        margin-top: -41px;
+    }
+}
+@media screen and (max-width: 1412px)
+{
+    /*----Header-----*/
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 121px !important;
+        margin-top: -92px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1175px !important;
+        margin-top: -85px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 1241px !important;
+        margin-top: -41px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1306px !important;
+        margin-top: -41px;
+    }
+} 
+@media screen and (max-width: 1376px)
+{
+    /*----Header-----*/
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 104px !important;
+        margin-top: -92px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1131px !important;
+        margin-top: -85px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 1199px !important;
+        margin-top: -41px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1270px !important;
+        margin-top: -41px;
+    }
+}
+
+@media screen and (max-width: 1368px)
+{
+    /*----Header-----*/
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 85px !important;
+        margin-top: -92px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1106px !important;
+        margin-top: -85px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 1176px !important;
+        margin-top: -41px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1246px !important;
+        margin-top: -41px;
+    }
+}
+@media screen and (max-width: 1272px)
+{
+    /*----Header-----*/
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 65px !important;
+        margin-top: -92px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1059px !important;
+        margin-top: -85px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 1120px !important;
+        margin-top: -41px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 1184px !important;
+        margin-top: -41px;
+    }
+}
+@media screen and (max-width: 1036px)
+{
+    /*----Header-----*/
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 45px !important;
+        margin-top: -92px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 960px !important;
+        margin-top: 0px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 960px !important;
+        margin-top: 19px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 960px !important;
+        margin-top: 22px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px)
+{
+    /*----Header-----*/
+    img#logo {
+        margin-left: -6px;
+        margin-top: 7px;
+        width: 29px !important;
+    }
+    h1#title {
+        font-size: 16px;
+        font-family: 'Lobster', cursive;
+        opacity: 100%;
+        color: #5ABF28;
+        margin-left: 3px;
+        margin-top: 26px;
+    }
+    
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 99px !important;
+        margin-top: -92px;
+    }
+    a#creation_jardin {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 17px;
+    }
+    a#entretien_jardin {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    a#contact {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 16px;
+        line-height: 8.8;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 970px !important;
+        margin-top: -41px;
+    }
+    img#go-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 11px;
+        margin-top: 6px;
+        width: 12px;
+    }
+    img#fa-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 13px;
+        margin-top: 5px;
+        width: 7px;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 865px !important;
+        margin-top: -81px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 919px !important;
+        margin-top: -41px;
+    }
+    
+    img#tw-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 12px;
+        margin-top: 15px;
+        width: 15px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    /*-------Header--------*/
+    img#logo {
+        margin-left: -3px;
+        margin-top: 7px;
+        width: 26px !important;
+    }
+    h1#title {
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
+        opacity: 100%;
+        color: #5ABF28;
+        margin-left: 2px;
+        margin-top: 22px;
+        width: 171px;
+    }
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        margin-left: -5px !important;
+        margin-top: -92px;
+    }
+    a#creation_jardin {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        margin-left: 17px;
+    }
+    a#entretien_jardin {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    a#contact {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        margin-left: 16px;
+        line-height: 9.8;
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 675px !important;
+        margin-top: -35px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 675px !important;
+        margin-top: 17px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 675px !important;
+        margin-top: 18px;
+    }
+}
+@media screen and (min-width: 320px)
+{
+    /*------Header-----
+    img#logo {
+        margin-left: -3px;
+        margin-top: 7px;
+        width: 26px !important;
+    }
+    h1#title {
+        font-size: 17px;
+        font-family: 'Lobster', cursive;
+        opacity: 100%;
+        color: #5ABF28;
+        margin-left: -24px;
+        margin-top: 22px;
+        width: 257px;
+    }
+    }
+    div#facebook {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 271px !important;
+        margin-top: -49px;
+    }
+    div#twitter {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #5ABF28;
+        margin-left: 319px !important;
+        margin-top: -42px;
+    }
+    div#google {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        border: 3.4px solid #DCDCDC;
+        margin-left: 368px !important;
+        margin-top: -40px;
+    }
+*/
+h1#title {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    opacity: 100%;
+    color: #5ABF28;
+    margin-left: -10px;
+    margin-top: 22px;
+    width: 171px;
+}
+@media screen and (max-width: 425px)
+{
+   /* a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 18px !important;
+        margin-top: -92px;
+    }
+    a#creation_jardin {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 17px;
+    }
+    a#entretien_jardin {
+        color: #969696;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    */
+    a#accueil {
+        font-family: 'Montserrat', sans-serif;
+        color: #5ABF28;
+        text-transform: uppercase;
+        font-size: 11px;
+        text-decoration: none;
+        margin-left: 16px !important;
+        margin-top: -92px;
+    }
+}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+     
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
