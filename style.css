@@ -1,7 +1,7 @@
 ::-webkit-scrollbar{
     display: none;
 }
-html{
+html,body{
     overflow-x: hidden;
 }
 
@@ -136,6 +136,19 @@ li#li-acceuil {
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width: 520px) 
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     a#accueil 
     {
@@ -207,6 +220,19 @@ li#li-acceuil {
 
 @media screen and (max-width: 1444px) 
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     img#logo {
         margin-left: -6px;
@@ -241,6 +267,19 @@ li#li-acceuil {
 }
 @media screen and (max-width: 1412px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     a#accueil {
         font-family: 'Montserrat', sans-serif;
@@ -280,6 +319,19 @@ li#li-acceuil {
 } 
 @media screen and (max-width: 1376px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     a#accueil {
         font-family: 'Montserrat', sans-serif;
@@ -320,6 +372,19 @@ li#li-acceuil {
 
 @media screen and (max-width: 1368px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     a#accueil {
         font-family: 'Montserrat', sans-serif;
@@ -359,6 +424,19 @@ li#li-acceuil {
 }
 @media screen and (max-width: 1272px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     a#accueil {
         font-family: 'Montserrat', sans-serif;
@@ -398,6 +476,19 @@ li#li-acceuil {
 }
 @media screen and (max-width: 1036px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     a#accueil {
         font-family: 'Montserrat', sans-serif;
@@ -440,6 +531,19 @@ li#li-acceuil {
 
 @media screen and (max-width: 1024px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*----Header-----*/
     img#logo {
         margin-left: -6px;
@@ -540,6 +644,19 @@ li#li-acceuil {
 }
 @media screen and (max-width: 768px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*-------Header--------*/
     img#logo {
         margin-left: -3px;
@@ -561,8 +678,16 @@ li#li-acceuil {
         text-transform: uppercase;
         font-size: 11px;
         text-decoration: none;
-        margin-left: -5px !important;
+        margin-left: 16px !important;
         margin-top: -92px;
+    }
+    b#separator {
+        font-size: 52px;
+        color: #DCDCDC;
+        height: 4px;
+        width: 4px;
+        margin-left: -11px;
+        display: none;
     }
     a#creation_jardin {
         color: #969696;
@@ -587,7 +712,7 @@ li#li-acceuil {
         font-size: 11px;
         text-decoration: none;
         margin-left: 16px;
-        line-height: 9.8;
+        line-height: 0.8 !important;
     }
     div#facebook {
         width: 40px;
@@ -618,6 +743,19 @@ li#li-acceuil {
 }
 @media screen and (min-width: 320px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
     /*------Header-----
     img#logo {
         margin-left: -3px;
@@ -668,10 +806,25 @@ h1#title {
     color: #5ABF28;
     margin-left: -10px;
     margin-top: 22px;
-    width: 171px;
+    width: 140px;
+}
+
 }
 @media screen and (max-width: 425px)
 {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    
+    *{
+     margin:0px;
+     padding:0px;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+    }
    /* a#accueil {
         font-family: 'Montserrat', sans-serif;
         color: #5ABF28;
@@ -707,7 +860,7 @@ h1#title {
         margin-left: 16px !important;
         margin-top: -92px;
     }
-}
+
 }
 @media only screen 
 and (min-device-width : 320px) 
