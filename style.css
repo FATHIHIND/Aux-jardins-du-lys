@@ -771,7 +771,7 @@ li#li-acceuil {
         padding:0px;
         margin:0px;
         position:fixed;
-        right:-130px;
+        right:210px;
         top:230px;
         width:210px;
         z-index: 1100;
@@ -790,7 +790,7 @@ li#li-acceuil {
         cursor:pointer;
     }
     .sticky li:hover{
-        margin-left:-115px;
+        margin-left:115px;
     }
     .sticky li img{
         float:left;
