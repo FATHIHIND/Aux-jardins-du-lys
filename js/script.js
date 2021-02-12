@@ -27,21 +27,11 @@
             }
             if(screen.width == 768)
             {
-  			   document.getElementById(".sticky-container").style.padding='0px';
- 			   document.getElementById(".sticky-container").style.margin='0px';
- 			   document.getElementById(".sticky-container").style.position='fixed';
+ 
                document.getElementById(".sticky-container").style.right='537px';
-               document.getElementById(".sticky-container").style.top='230px';
-               document.getElementById(".sticky-container").style.width='210px';
-               document.getElementById(".sticky-container").style.z-index='1100';
             }
             if(screen.width == 425)
             {
- 			   document.getElementById(".sticky-container").style.padding='0px';
- 			   document.getElementById(".sticky-container").style.margin='0px';
- 			   document.getElementById(".sticky-container").style.position='fixed';
+ 				
                document.getElementById(".sticky-container").style.right='210px';
-               document.getElementById(".sticky-container").style.top='230px';
-               document.getElementById(".sticky-container").style.width='210px';
-               document.getElementById(".sticky-container").style.z-index='1100';
             }
