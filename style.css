@@ -3,6 +3,7 @@
 }
 html,body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 *{
@@ -77,8 +78,7 @@ div#facebook {
     background-color: white;
     border: 3.4px solid #DCDCDC;
     margin-left: 1263px;
-    margin-top: -85px;
-
+    margin-top: -86px;
 }
 
 img#fa-icone {
@@ -94,8 +94,7 @@ div#twitter {
     border-radius: 20px;
     background-color: #5ABF28;
     margin-left: 1323px;
-    margin-top: -41px;
-
+    margin-top: -40px;
 }
 
 img#tw-icone {
@@ -112,7 +111,7 @@ div#google {
     background-color: white;
     border: 3.4px solid #DCDCDC;
     margin-left: 1384px;
-    margin-top: -41px;
+    margin-top: -40px;
 }
 
 img#go-icone {
@@ -253,7 +252,7 @@ li#li-acceuil {
         border-radius: 20px;
         background-color: #5ABF28;
         margin-left: 1285px;
-        margin-top: -41px;
+        margin-top: -40px;
     }
     div#google {
         width: 40px;
@@ -262,7 +261,7 @@ li#li-acceuil {
         background-color: white;
         border: 3.4px solid #DCDCDC;
         margin-left: 1354px;
-        margin-top: -41px;
+        margin-top: -38px;
     }
 }
 @media screen and (max-width: 1412px)
@@ -600,7 +599,7 @@ li#li-acceuil {
         background-color: white;
         border: 3.4px solid #DCDCDC;
         margin-left: 970px !important;
-        margin-top: -41px;
+        margin-top: -39px;
     }
     img#go-icone {
         vertical-align: middle;
@@ -623,7 +622,7 @@ li#li-acceuil {
         background-color: white;
         border: 3.4px solid #DCDCDC;
         margin-left: 865px !important;
-        margin-top: -81px;
+        margin-top: -81.8px;
     }
     div#twitter {
         width: 40px;
@@ -715,31 +714,104 @@ li#li-acceuil {
         line-height: 0.8 !important;
     }
     div#facebook {
+      display: none;
+    }
+    img#fa-icone {
+       display: none;
+    }
+    div#facebooks {
         width: 40px;
         height: 40px;
         border-radius: 20px;
         background-color: white;
         border: 3.4px solid #DCDCDC;
-        margin-left: 675px !important;
-        margin-top: -35px;
+        margin-left: 18px !important;
+        margin-top: 11px;
+    }
+    
+    img#fa-icones {
+        vertical-align: middle !important;
+        border-style: none !important;
+        margin-left: 13px !important;
+        margin-top: 10px !important;
+        width: 7px !important;
     }
     div#twitter {
+      display: none;
+    }
+    
+    div#twitters {
         width: 40px;
         height: 40px;
         border-radius: 20px;
         background-color: #5ABF28;
-        margin-left: 675px !important;
+        margin-left: 18px !important;
         margin-top: 17px;
     }
     div#google {
+       display: none;
+    }
+    img#go-icones {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 11px;
+        margin-top: 12px;
+        width: 12px;
+    }
+    div#googles {
         width: 40px;
         height: 40px;
         border-radius: 20px;
         background-color: white;
         border: 3.4px solid #DCDCDC;
-        margin-left: 675px !important;
+        margin-left: 18px !important;
         margin-top: 18px;
     }
+    .sticky-container{
+        padding:0px;
+        margin:0px;
+        position:fixed;
+        right:-130px;
+        top:230px;
+        width:210px;
+        z-index: 1100;
+    }
+    .sticky li{
+        list-style-type:none;
+        background-color:#fff;
+        color:#efefef;
+        height:43px;
+        padding:0px;
+        margin:0px 0px 1px 0px;
+        -webkit-transition:all 0.25s ease-in-out;
+        -moz-transition:all 0.25s ease-in-out;
+        -o-transition:all 0.25s ease-in-out;
+        transition:all 0.25s ease-in-out;
+        cursor:pointer;
+    }
+    .sticky li:hover{
+        margin-left:-115px;
+    }
+    .sticky li img{
+        float:left;
+        margin:5px 4px;
+        margin-right:5px;
+    }
+    .sticky li p{
+        padding-top:5px;
+        margin:0px;
+        line-height:16px;
+        font-size:11px;
+    }
+    .sticky li p a{
+        text-decoration:none;
+        color:#2C3539;
+    }
+    .sticky li p a:hover{
+        text-decoration:underline;
+    }
+
+   
 }
 @media screen and (min-width: 320px)
 {
@@ -851,16 +923,7 @@ h1#title {
         margin-left: 15px;
     }
     */
-    a#accueil {
-        font-family: 'Montserrat', sans-serif;
-        color: #5ABF28;
-        text-transform: uppercase;
-        font-size: 11px;
-        text-decoration: none;
-        margin-left: 16px !important;
-        margin-top: -92px;
-    }
-
+  
 }
 @media only screen 
 and (min-device-width : 320px) 
@@ -921,3 +984,5 @@ only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
+
+
