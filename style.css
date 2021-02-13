@@ -175,7 +175,7 @@ li#li-acceuil
 {
     color: white;
 }
-h1#header_title {
+/*h1#header_title {
     font-family: 'Lobster', cursive;
     color: #FFFFFF;
     font-size: 78px;
@@ -196,7 +196,7 @@ p#contacter {
     left: 69.5%;
     right: -45%;
     transform: translate(-50%, -50%);
-}
+}*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width: 520px) 
@@ -287,7 +287,7 @@ p#contacter {
         margin-top: -41px;
     }
 }
-@media screen and (max-width: 1440px)
+/*@media screen and (max-width: 1440px)
 {
     ::-webkit-scrollbar
     {
@@ -305,7 +305,7 @@ p#contacter {
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
     }
-}
+}*/
 @media screen and (max-width: 1444px) 
 {
        
