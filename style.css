@@ -29,7 +29,7 @@ html,body{
     margin: -3px !important;
     margin-right: -47px !important;
     margin-left: -53px !important;
-    margin-top: -3px !important;
+    margin-top: 21px !important;
     margin-bottom: -3px !important;
 }
 img#logo {
@@ -766,6 +766,16 @@ li#li-acceuil {
         margin-left: 18px !important;
         margin-top: 17px;
     }
+    img#tw-icone {
+      display: none;
+    }
+    img#tw-icones {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 13px;
+        margin-top: 13px;
+        width: 15px;
+    }
     div#google {
        display: none;
     }
@@ -796,7 +806,7 @@ li#li-acceuil {
     }*/
     .sticky li{
         list-style-type:none;
-        background-color:#fff;
+       /* background-color:#fff;*/
         color:#efefef;
         height:43px;
         padding:0px;
@@ -840,7 +850,10 @@ li#li-acceuil {
         right: 210px;
         top: 230px;
         width: 210px;
-        z-index: 1100;*/
+        z-index: 1100;
+    }*/
+    .sticky-container{
+        position: fixed !important;
     }
 }
 @media screen and (min-width: 320px)
@@ -912,6 +925,7 @@ h1#title {
 }
 
 }
+
 @media screen and (max-width: 425px)
 {
     ::-webkit-scrollbar{
@@ -953,7 +967,9 @@ h1#title {
         margin-left: 15px;
     }
     */
-  
+    .sticky-container{
+        position: fixed !important;
+    }
 }
 @media only screen 
 and (min-device-width : 320px) 
