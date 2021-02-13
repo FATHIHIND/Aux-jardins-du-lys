@@ -175,7 +175,7 @@ li#li-acceuil
 {
     color: white;
 }
-/*h1#header_title {
+h1#header_title {
     font-family: 'Lobster', cursive;
     color: #FFFFFF;
     font-size: 78px;
@@ -183,7 +183,7 @@ li#li-acceuil
     position: absolute;
     top: 63%;
     left: 49%;
-    right: -45%;
+    margin-right: -45%;
     transform: translate(-50%, -50%);
 }
 p#contacter {
@@ -194,9 +194,9 @@ p#contacter {
     position: absolute;
     top: 75%;
     left: 69.5%;
-    right: -45%;
+    margin-left: -20%;
     transform: translate(-50%, -50%);
-}*/
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width: 520px) 
