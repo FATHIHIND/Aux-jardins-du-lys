@@ -65,6 +65,9 @@ a#creation_jardin {
     text-decoration: none;
     margin-left: 17px;
 }
+a#creation_jardin:hover {
+    color: #5ABF28;
+}
 b#separator {
     font-size: 52px;
     color: #DCDCDC;
@@ -80,6 +83,9 @@ a#entretien_jardin {
     text-decoration: none;
     margin-left: 15px;
 }
+a#entretien_jardin:hover {
+    color: #5ABF28;
+}
 a#contact {
     color: #969696;
     font-family: 'Montserrat', sans-serif;
@@ -88,6 +94,9 @@ a#contact {
     text-decoration: none;
     margin-left: 16px;
     line-height: 6.5;
+}
+a#contact:hover {
+    color: #5ABF28;
 }
 div#facebook {
     width: 40px;
@@ -593,6 +602,9 @@ li#li-acceuil {
         text-decoration: none;
         margin-left: 17px;
     }
+    a#creation_jardin:hover {
+        color: #5ABF28;
+    }
     a#entretien_jardin {
         color: #969696;
         font-family: 'Montserrat', sans-serif;
@@ -600,6 +612,9 @@ li#li-acceuil {
         font-size: 12px;
         text-decoration: none;
         margin-left: 15px;
+    }
+    a#entretien_jardin:hover {
+        color: #5ABF28;
     }
     a#contact {
         color: #969696;
@@ -609,6 +624,9 @@ li#li-acceuil {
         text-decoration: none;
         margin-left: 16px;
         line-height: 8.8;
+    }
+    a#contact:hover {
+        color: #5ABF28;
     }
     div#google {
         width: 40px;
@@ -714,6 +732,9 @@ li#li-acceuil {
         text-decoration: none;
         margin-left: 17px;
     }
+    a#creation_jardin:hover {
+        color: #5ABF28;
+    }
     a#entretien_jardin {
         color: #969696;
         font-family: 'Montserrat', sans-serif;
@@ -721,6 +742,9 @@ li#li-acceuil {
         font-size: 11px;
         text-decoration: none;
         margin-left: 15px;
+    }
+    a#entretien_jardin:hover {
+        color: #5ABF28;
     }
     a#contact {
         color: #969696;
@@ -730,6 +754,9 @@ li#li-acceuil {
         text-decoration: none;
         margin-left: 16px;
         line-height: 0.8 !important;
+    }
+    a#contact:hover {
+        color: #5ABF28;
     }
     div#facebook {
       display: none;
