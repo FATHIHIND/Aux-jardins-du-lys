@@ -7,14 +7,29 @@
         $(function () {
         $('[data-toggle="popover"]').popover()
         })
-                            if(screen.width == 1492)
+	       
+            if(screen.width ==  1104)
             {
  
                document.getElementById("fa-icones").style.display='none';
                document.getElementById("go-icones").style.display='none';
                document.getElementById("tw-icones").style.display='none';
             }
-                    if(screen.width == 1440)
+            if(screen.width ==  1215)
+            {
+ 
+               document.getElementById("fa-icones").style.display='none';
+               document.getElementById("go-icones").style.display='none';
+               document.getElementById("tw-icones").style.display='none';
+            }
+             if(screen.width == 1492)
+            {
+ 
+               document.getElementById("fa-icones").style.display='none';
+               document.getElementById("go-icones").style.display='none';
+               document.getElementById("tw-icones").style.display='none';
+            }
+             if(screen.width == 1440)
             {
  
                document.getElementById("fa-icones").style.display='none';

@@ -37,12 +37,12 @@ img#logo {
     margin-top: 1px;
 }
 h1#title {
-    font-size: 30px;
-    font-family: 'Lobster', cursive;
-    opacity: 100%;
-    color: #5ABF28;
-    margin-left: 9px;
-    margin-top: 18px;
+    font-size: 30px !important;
+    font-family: 'Lobster', cursive !important;
+    opacity: 100% !important;
+    color: #5ABF28 !important;
+    margin-left: 9px !important;
+    margin-top: 18px !important;
 }
 menu {
     margin-top: -72px;
@@ -474,30 +474,30 @@ li#li-acceuil {
         margin-top: -92px;
     }
     div#facebook {
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
-        background-color: white;
-        border: 3.4px solid #DCDCDC;
-        margin-left: 1059px !important;
-        margin-top: -85px;
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid #DCDCDC !important;
+        margin-left: 1034px !important;
+        margin-top: -85px !important;
     }
     div#twitter {
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
-        background-color: #5ABF28;
-        margin-left: 1120px !important;
-        margin-top: -41px;
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        background-color: #5ABF28 !important;
+        margin-left: 1092px !important;
+        margin-top: -41px !important;
     }
     div#google {
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
-        background-color: white;
-        border: 3.4px solid #DCDCDC;
-        margin-left: 1184px !important;
-        margin-top: -41px;
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid #DCDCDC !important;
+        margin-left: 1151px !important;
+        margin-top: -41px !important;
     }
 }
 @media screen and (max-width: 1036px)
@@ -942,14 +942,15 @@ li#li-acceuil {
     }
 */
 h1#title {
-    font-size: 20px;
-    font-family: 'Lobster', cursive;
-    opacity: 100%;
-    color: #5ABF28;
-    margin-left: -10px;
-    margin-top: 22px;
-    width: 140px;
+    font-size: 20px !important;
+    font-family: 'Lobster', cursive !important;
+    opacity: 100% !important;
+    color: #5ABF28 !important;
+    margin-left: -10px !important;
+    margin-top: 22px !important;
+    width: 140px !important;
 }
+
 
 }
 
@@ -998,64 +999,712 @@ h1#title {
         position: fixed !important;
     }
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-     
+
+@media screen and (max-width: 1215px)
+{
+    div#facebook {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid #DCDCDC !important;
+        margin-left: 992px !important;
+        margin-top: -85px !important;
+    }
+    div#twitter {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        background-color: #5ABF28 !important;
+        margin-left: 1048px !important;
+        margin-top: -41px !important;
+    }
+    div#google {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid #DCDCDC !important;
+        margin-left: 1103px !important;
+        margin-top: -41px !important;
+    }
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+@media screen and (max-width: 1154px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid #DCDCDC !important;
+        margin-left: 941px !important;
+        margin-top: -77px !important;
+    }
+    img#fa-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 8px;
+        margin-top: -4px;
+        width: 7px;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: #5ABF28 !important;
+        margin-left: 978px !important;
+        margin-top: -31px !important;
+    }
+    img#tw-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 8px;
+        margin-top: 5px;
+        width: 15px;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid #DCDCDC !important;
+        margin-left: 1017px !important;
+        margin-top: -31px !important;
+    }
+    img#go-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 7px;
+        margin-top: -2px;
+        width: 12px;
+    }
 }
 
 
+@media screen and (max-width: 1053px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 865px !important;
+        margin-top: -77px !important;
+    }
+    img#fa-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 8px;
+        margin-top: -4px;
+        width: 7px;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 911px !important;
+        margin-top: -31px !important;
+    }
+    img#tw-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 8px;
+        margin-top: 5px;
+        width: 15px;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 958px !important;
+        margin-top: -31px !important;
+    }
+    img#go-icone {
+        vertical-align: middle;
+        border-style: none;
+        margin-left: 7px;
+        margin-top: -2px;
+        width: 12px;
+    }
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: rgb(90, 191, 40) !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: 20px !important;
+    }
+}
+
+
+@media screen and (max-width: 1008px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 822px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 868px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 919px !important;
+        margin-top: -31px !important;
+    }
+}
+
+
+@media screen and (max-width: 960px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 790px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 833px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 876px !important;
+        margin-top: -31px !important;
+    }
+}
+
+
+@media screen and (max-width: 902px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 772px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 818px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 862px !important;
+        margin-top: -31px !important;
+    }
+}
+@media screen and (max-width: 901px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 765px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 806px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 847px !important;
+        margin-top: -31px !important;
+    }
+}
+
+@media screen and (max-width: 901px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 756px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 797px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 839px !important;
+        margin-top: -31px !important;
+    }
+}
+
+@media screen and (max-width: 871px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 752px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 791px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 831px !important;
+        margin-top: -31px !important;
+    }
+}
+
+@media screen and (max-width: 858px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 717px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 755px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 795px !important;
+        margin-top: -31px !important;
+    }
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: rgb(90, 191, 40) !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: -37px !important;
+    }
+}
+
+@media screen and (max-width: 599px)
+{
+    h1#title {
+        font-size: 13px !important;
+        font-family: 'Lobster', cursive !important;
+        opacity: 100% !important;
+        color: #5ABF28 !important;
+        margin-left: -10px !important;
+        margin-top: 22px !important;
+        width: 140px !important;
+    }
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: rgb(90, 191, 40) !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: -37px !important;
+    }
+    a#creation_jardin {
+        color: #969696  !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 5px !important;
+    }
+}
+
+@media screen and (max-width: 588px)
+{
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 1px !important;
+    }
+    
+}
+@media screen and (max-width: 576px)
+{
+    a#entretien_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif  !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 7px !important;
+    }
+}
+@media screen and (max-width: 520px)
+{
+    h1#title {
+        font-size: 20px !important;
+        font-family: 'Lobster', cursive !important;
+        opacity: 100% !important;
+        color: #5ABF28 !important;
+        margin-left: -202px !important;
+        margin-top: 22px !important;
+        width: 140px !important;
+    }
+}
+
+@media screen and (max-width: 830px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 699px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 738px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 778px !important;
+        margin-top: -31px !important;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 695px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 731px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 768px !important;
+        margin-top: -31px !important;
+    }
+}
+
+@media screen and (max-width: 784px)
+{
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-left: 9px !important;
+    }
+    a#entretien_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-left: 12px !important;
+    }
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-left: 9px !important;
+        line-height: 1.8 !important;
+    }
+    div#facebook {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 679px !important;
+        margin-top: -77px !important;
+    }
+    div#twitter {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: rgb(90, 191, 40) !important;
+        margin-left: 717px !important;
+        margin-top: -31px !important;
+    }
+    div#google {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 20px !important;
+        background-color: white !important;
+        border: 3.4px solid rgb(220, 220, 220) !important;
+        margin-left: 751px !important;
+        margin-top: -31px !important;
+    }
+    img#logo {
+        margin-left: -6px !important;
+        margin-top: 7px !important;
+        width: 22px !important;
+    }
+
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-left: 17px !important;
+    }
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: rgb(90, 191, 40) !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: 5px !important;
+    }
+    h1#title {
+        font-size: 18px !important;
+        font-family: 'Lobster', cursive !important;
+        opacity: 100% !important;
+        color: #5ABF28 !important;
+        margin-left: -10px !important;
+        margin-top: 22px !important;
+        width: 140px !important;
+    }
+    
+    
+    
+    
+    
+}
+@media screen and (max-width: 761px)
+{
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: rgb(90, 191, 40) !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: -9px !important;
+    }
+    
+    
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-left: 9px !important;
+        line-height: 1.8 !important;
+    }
+    a#entretien_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 4px !important;
+    }
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 17px !important;
+    }
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 9px !important;
+        line-height: 1.8 !important;
+    }
+}
+@media screen and (max-width: 588px)
+{
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: rgb(90, 191, 40) !important;
+        text-transform: uppercase !important;
+        font-size: 8px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: 23px !important;
+    }
+    
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 8px !important;
+        text-decoration: none !important;
+        margin-left: 12px !important;
+    }
+    a#entretien_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 8px !important;
+        text-decoration: none !important;
+        margin-left: 4px !important;
+    }
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 8px !important;
+        text-decoration: none !important;
+        margin-left: 9px !important;
+        line-height: 1.8 !important;
+    }
+    h1#title {
+        font-size: 15px !important;
+        font-family: 'Lobster', cursive !important;
+        opacity: 100% !important;
+        color: #5ABF28 !important;
+        margin-left: -10px !important;
+        margin-top: 22px !important;
+        width: 140px !important;
+    }
+}
+@media screen and (max-width: 599px)
+{
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: #5ABF28 !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: -14px !important;
+    }
+    
+    h1#title {
+        font-size: 15px !important;
+        font-family: 'Lobster', cursive !important;
+        opacity: 100% !important;
+        color: #5ABF28 !important;
+        margin-left: -10px !important;
+        margin-top: 22px !important;
+        width: 140px !important;
+    }
+}
+@media screen and (max-width: 765px)
+{
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 12px !important;
+        text-decoration: none !important;
+        margin-left: 9px !important;
+        line-height: 1.8 !important;
+    }
+}
