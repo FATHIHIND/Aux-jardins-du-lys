@@ -998,6 +998,40 @@ h1#title {
     .sticky-container{
         position: fixed !important;
     }
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 5px !important;
+        line-height: 1.8 !important;
+    }
+    a#entretien_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 4px !important;
+    }
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 4px !important;
+    }
+    a#accueil {
+        font-family: Montserrat, sans-serif !important;
+        color: #5ABF28 !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-top: -92px !important;
+        margin-left: 6px !important;
+    }
 }
 
 @media screen and (max-width: 1215px)
