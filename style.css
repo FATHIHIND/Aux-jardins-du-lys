@@ -1449,6 +1449,7 @@ h1#title {
         text-decoration: none !important;
         margin-left: 7px !important;
     }
+    
 }
 @media screen and (max-width: 520px)
 {
@@ -1710,6 +1711,31 @@ h1#title {
 }
 @media screen and (max-width: 599px)
 {
+    a#contact {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 5px !important;
+        line-height: 1.8 !important;
+    }
+    a#entretien_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 4px !important;
+    }
+    a#creation_jardin {
+        color: #969696 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        text-transform: uppercase !important;
+        font-size: 11px !important;
+        text-decoration: none !important;
+        margin-left: 4px !important;
+    }
     a#accueil {
         font-family: Montserrat, sans-serif !important;
         color: #5ABF28 !important;
@@ -1717,17 +1743,7 @@ h1#title {
         font-size: 11px !important;
         text-decoration: none !important;
         margin-top: -92px !important;
-        margin-left: -14px !important;
-    }
-    
-    h1#title {
-        font-size: 15px !important;
-        font-family: 'Lobster', cursive !important;
-        opacity: 100% !important;
-        color: #5ABF28 !important;
-        margin-left: -10px !important;
-        margin-top: 22px !important;
-        width: 140px !important;
+        margin-left: 6px !important;
     }
 }
 @media screen and (max-width: 765px)
@@ -1736,9 +1752,9 @@ h1#title {
         color: #969696 !important;
         font-family: 'Montserrat', sans-serif !important;
         text-transform: uppercase !important;
-        font-size: 12px !important;
+        font-size: 11px !important;
         text-decoration: none !important;
-        margin-left: 9px !important;
+        margin-left: 5px !important;
         line-height: 1.8 !important;
     }
 }
