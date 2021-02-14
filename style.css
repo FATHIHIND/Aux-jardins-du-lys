@@ -203,19 +203,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -311,19 +311,19 @@ p#contacter {
        
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     img#logo 
@@ -366,19 +366,19 @@ p#contacter {
     
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -425,19 +425,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -485,19 +485,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -544,19 +544,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -603,19 +603,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -665,19 +665,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     img#logo 
@@ -827,19 +827,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*-------Header--------*/
     img#logo 
@@ -1038,19 +1038,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     .sticky-container
@@ -1062,19 +1062,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*------Header-----*/
     h1#title 
@@ -1095,19 +1095,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     .sticky-container
@@ -1158,19 +1158,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1208,19 +1208,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1283,19 +1283,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1368,19 +1368,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1419,19 +1419,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1470,19 +1470,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1519,19 +1519,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1569,19 +1569,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1619,19 +1619,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1669,19 +1669,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1729,19 +1729,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     h1#title 
@@ -1779,19 +1779,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#creation_jardin 
@@ -1809,19 +1809,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#entretien_jardin 
@@ -1839,19 +1839,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     h1#title 
@@ -1870,19 +1870,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1919,19 +1919,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     div#facebook 
@@ -1969,19 +1969,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#creation_jardin 
@@ -2087,19 +2087,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -2157,19 +2157,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#accueil 
@@ -2226,19 +2226,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
     *
     {
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#contact 
@@ -2284,18 +2284,19 @@ p#contacter {
 {
     ::-webkit-scrollbar
     {
-        display: none;
+        display: none !important;
     }
     html,body
     {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     
-    *{
-     margin:0px;
-     padding:0px;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
+    *
+    {
+     margin:0px !important;
+     padding:0px !important;
+     -webkit-box-sizing: border-box !important;
+     box-sizing: border-box !important;
     }
     /*----Header-----*/
     a#contact 
