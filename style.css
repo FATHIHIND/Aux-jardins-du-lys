@@ -197,7 +197,7 @@ p#contacter {
     left: 69.5%;
     margin-left: -20%;
     transform: translate(-50%, -50%);
-}*/
+}
 h1#header_title {
     z-index: 100;
     position: absolute;
@@ -219,7 +219,7 @@ p#contacter {
     top: 602px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-}
+}*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width: 520px) 
