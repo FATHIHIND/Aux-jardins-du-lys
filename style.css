@@ -220,6 +220,16 @@ p#contacter {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }*/
+h1#header_title
+{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width: 520px) 
