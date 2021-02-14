@@ -175,6 +175,7 @@ li#li-acceuil
 {
     color: white;
 }
+
 /*h1#header_title {
     font-family: 'Lobster', cursive;
     color: #FFFFFF;
@@ -197,6 +198,28 @@ p#contacter {
     margin-left: -20%;
     transform: translate(-50%, -50%);
 }*/
+h1#header_title {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 78px;
+    font-weight: bold;
+    left: 177px;
+    top: 482px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+p#contacter {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    left: 508px;
+    top: 602px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width: 520px) 
